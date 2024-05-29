@@ -1,0 +1,13 @@
+output/sleep/label/*.json
+output/sleep/video/*.mp4
+output/wake/label/*.json
+output/wake/video/*.mp4
+output.json
+
+yolov8/datasets/images/train/*.jpg
+yolov8/datasets/images/val/*.jpg
+yolov8/datasets/images/test/*.jpg
+
+yolov8/datasets/labels/train/*.txt
+yolov8/datasets/labels/val/*.txt
+yolov8/datasets/labels/test/*.txt
