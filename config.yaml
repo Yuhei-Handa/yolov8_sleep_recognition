@@ -1,0 +1,13 @@
+path: C:/Users/yuhei/VScode/python/neoti/yolov8_sleep_recognition/dataset"  # dataset root dir
+train: C:/Users/yuhei/VScode/python/neoti/yolov8_sleep_recognition/dataset/images/train  # train images
+val: C:/Users/yuhei/VScode/python/neoti/yolov8_sleep_recognition/dataset/images/val  # valid images 
+test: C:/Users/yuhei/VScode/python/neoti/yolov8_sleep_recognition/dataset/images/test  # test images
+
+# Classes
+names: 
+  0: awake
+  1: sleep
+
+nc: 2  # number of classes
+
+
