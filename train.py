@@ -4,7 +4,7 @@ def train(model_name):
     # モデルの初期化
     model = YOLO(model_name)
 
-    data_path = "C:/Users/yuhei/VScode/python/neoti/yolov8_sleep_recognition/config.yaml"
+    data_path = "C:/Users/user/VScode/python/neoti/yolov8_sleep_recognition/config.yaml"
 
     # モデルの学習
     model.train(data=data_path, epochs=500, patience=50, batch=8, imgsz=640, save=True,
